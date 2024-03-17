@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjCleanArchMVC.Application\ProjCleanArchMVC.Application.csproj" />
+    <ProjectReference Include="..\ProjCleanArchMVC.Domain\ProjCleanArchMVC.Domain.csproj" />
+    <ProjectReference Include="..\ProjCleanArchMVC.Infra.Data\ProjCleanArchMVC.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
